@@ -12,6 +12,6 @@ func main() {
 
 func callback(c *gin.Context) {
 	c.JSON(200, gin.H{
-		"message": "pong",
+		"message": "ping-pong and ding-dong",
 	})
 }
